@@ -7,7 +7,7 @@ $] gcloud auth login --no-launch-browser
 $] gcloud projects create jenkins-x-indradip
 $] gcloud config set project jenkins-x-indradip
 $] gcloud alpha billing accounts list
-$] gcloud alpha billing projects link jenkins-x-indradip --billing-account 0116D0-816F45-723D2C
+$] gcloud alpha billing projects link jenkins-x-indradip --billing-account <>
 
 
 ### Create a Service Account and corresponding key
