@@ -39,7 +39,7 @@ So apply one moretime
 ```
 $] terraform apply
 $] mkdir jx_boot (This directory should be created outside this git repo)
-$] terraform output jx_requirements ../../jx-boot/jx-requirements.yml
+$] terraform output jx_requirements > ../../jx-boot/jx-requirements.yml
 $] gcloud container clusters get-credentials <cluster-name>
 ```
 Then move to jx_boot directory
