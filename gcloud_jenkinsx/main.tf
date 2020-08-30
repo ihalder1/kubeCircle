@@ -3,7 +3,7 @@ module "jx" {
     gcp_project = "jenkins-x-indradip"
     zone = "us-west1-b"
     cluster_name = "indra-jenkins-x-cluster"
-    dev_env_approvers = "ihalder1"
+    dev_env_approvers = ["ihalder1"]
     force_destroy = true
     git_owner_requirement_repos = "ihalder1"
     jenkins_x_namespace = "indra-jenkins-x"
